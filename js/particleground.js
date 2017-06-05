@@ -4,10 +4,13 @@
  */
 
  document.addEventListener('DOMContentLoaded', function () {
-   particleground(document.getElementById('particles'), {
-     dotColor: '#c16700',
-     lineColor: '#c16700'
-   });
+
+   var particleElements = document.getElementsByClassName('particles');
+   var testz = document.getElementById('intro');
+
+   console.log(particleElements);
+   console.log(testz);
+
    var intro = document.getElementById('intro');
    intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
  }, false);

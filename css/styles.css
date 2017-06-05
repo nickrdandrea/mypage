@@ -112,10 +112,12 @@ h2 {
 
 .sectionHeader {
   position: absolute;
-  left: 0;
   top: 105%;
   padding: 0 20px;
-  width: 100%;
+  width: 900px;
+  left: 0;
+  right: 0;
+  margin: auto
 }
 
 .panel {

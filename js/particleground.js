@@ -5,12 +5,16 @@
 
  document.addEventListener('DOMContentLoaded', function () {
 
-   var particleElements = document.getElementsByClassName('particles');
-   var testz = document.getElementById('intro');
+  var particleElements = document.getElementsByClassName('particles');
 
-   console.log(particleElements);
-   console.log(testz);
+  for (var i = 0; i < particleElements.length; i++) {
+    particleground(particleElements[i], {
+      dotColor: '#c16700',
+      lineColor: '#c16700'
+    });
+  }
 
-   var intro = document.getElementById('intro');
-   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+  var intro = document.getElementById('intro');
+  intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+
  }, false);

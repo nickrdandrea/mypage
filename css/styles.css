@@ -133,6 +133,7 @@ h2 {
   background: #f4f9e9;
   width: 100%;
   height: 80vh;
+  overflow: hidden;
 }
 
 .container {
@@ -152,15 +153,12 @@ h2 {
 
 #portrait {
   background-repeat: no-repeat;
+  background-image: url(../img/me.jpg);
   background-position: 50%;
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  background-image: url(../img/me.jpg);
-  position: absolute;
-  left: 0;
-  top: 0;
-  overflow: hidden;
+  float: left;
 }
 
 #portraitBlurb {

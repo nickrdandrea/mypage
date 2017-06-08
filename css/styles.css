@@ -67,8 +67,9 @@ body {
 
 .particles {
   width: 100%;
-  overflow: hidden;
   background: #284b63;
+  overflow: hidden;
+  position: relative;
 }
 
 
@@ -77,9 +78,7 @@ set to absolute so that content will appear ontop of the animated canvas generat
 by particleground. */
 
 #particlesHeader {
-  height: 140vh;
-  overflow: hidden;
-  position: relative;
+  height: 100vh;
 }
 
 #particlesHeader>div, #particlesHeader>canvas {
@@ -135,6 +134,9 @@ h1::after {
   color: #f4f9e9;
 }
 
+#aboutHeader {
+  height: 40vh;
+}
 
 /* About, placed in the particlesHeader but is the beginning of about.
 Contains portrait and blurb. */

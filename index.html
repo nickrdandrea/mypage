@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Nick D'Andrea </title>
-    <meta name="author" content="Nick D'Andrea">
-    <meta name="description" content="Nick D'Andrea's personal website.">
 
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nick D'Andrea </title>
+  <meta name="author" content="Nick D'Andrea">
+  <meta name="description" content="Nick D'Andrea's personal website.">
 
-    <script src="js/jquery.particleground.js"></script>
-    <script src='js/particleground.js' type='text/javascript'></script>
-  </head>
-  <body>
-    <div id="particlesHeader" class="particles">
+  <!-- Google Webfonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro" rel="stylesheet">
+
+  <!-- Skeleton CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+
+  <!-- jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <!-- Particlground JS -->
+  <script src="js/jquery.particleground.min.js"></script>
+  <script src='js/particleground.js' type='text/javascript'></script>
+
+  <!-- Smooth Scrolling JS -->
+  <script src='js/smooth-scrolling.js' type='text/javascript'></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+
+    <nav id="menu">
+      <h4>ND</h4>
+      <ul>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </ul>
+    </nav>
+
+  </div>
+
+  <div id="particlesHeader" class="particles">
+    <div class="absoluteContainer container">
 
       <div id="intro">
         <h1>Nick D'Andrea</h1>
         <p>Full Stack Developer and more.</p>
       </div>
 
-      <div id="aboutHeader">
-
-          <div id="portrait"></div>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat justo sed lectus eleifend faucibus. Proin quis risus odio. Mauris pellentesque urna ac neque placerat consequat. Integer rutrum mauris enim, a semper arcu posuere id. Vivamus maximus velit vitae vulputate mollis. Integer libero neque, sodales non neque vitae, imperdiet rhoncus arcu. Vestibulum at nisi non sapien condimentum efficitur ac ut ante. In sodales felis non auctor pulvinar. Vivamus ullamcorper ornare quam, vel auctor mi faucibus id. Vivamus in euismod felis, et dignissim turpis. Quisque pharetra ante at felis iaculis ultricies. Nam eu turpis at est maximus lacinia.</p>
-
+      <div id="about">
+        <div id="portrait"></div>
+        <p id="blurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat justo sed lectus eleifend faucibus. Proin quis risus odio. Mauris pellentesque urna ac neque placerat consequat. Integer rutrum mauris enim, a semper arcu posuere id. Vivamus
+          maximus velit vitae vulputate mollis. Integer libero neque, sodales non neque vitae, imperdiet rhoncus arcu. Vestibulum at nisi non sapien condimentum efficitur ac ut ante. In sodales felis non auctor pulvinar. Vivamus ullamcorper ornare quam,
+          vel auctor mi faucibus id. Vivamus in euismod felis, et dignissim turpis. Quisque pharetra ante at felis iaculis ultricies. Nam eu turpis at est maximus lacinia.</p>
       </div>
 
     </div>
+  </div>
 
-      <div class="panel">
+  <div id="aboutSection">
 
-      </div>
-  </body>
+  </div>
+
+</body>
+
 </html>

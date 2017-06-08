@@ -81,7 +81,7 @@ by particleground. */
   height: 100vh;
 }
 
-#particlesHeader>div, #particlesHeader>canvas {
+.particles>div, .particles>canvas {
   position: absolute;
   height: 100%;
 }
@@ -99,9 +99,12 @@ by particleground. */
 /* Intro, name and tagline. */
 
 #intro {
-  position: absolute;
   left: 0;
   top: 20%;
+}
+
+.overlayContainer {
+  position: absolute;
   width: 100%;
   text-align: center;
   overflow: hidden;
@@ -142,8 +145,8 @@ h1::after {
 Contains portrait and blurb. */
 
 #about {
-  position: absolute;
-  bottom: 3%;
+  top: 25%;
+
 }
 
 #portrait {
